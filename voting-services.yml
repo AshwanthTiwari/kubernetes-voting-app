@@ -8,9 +8,9 @@
     spec:
       type: LoadBalancer
       ports:
-        - port: 80
-          targetPort: 80
-        selector:
-          name: voting-app-prod
-          app: demo-voting-app
+      - port: 80
+        targetPort: 80
+      selector:
+        name: voting-app-prod
+        app: demo-voting-app
 
